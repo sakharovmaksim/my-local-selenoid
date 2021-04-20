@@ -1,9 +1,9 @@
 {
   "chrome": {
-    "default": "88.0",
+    "default": "89.0",
     "versions": {
-      "88.0": {
-        "image": "selenoid/vnc:chrome_88.0",
+      "89.0": {
+        "image": "selenoid/vnc:chrome_89.0",
         "port": "4444",
         "tmpfs": {"/tmp": "size=1024m", "/var": "size=512m"},
         "env" : ["LANG=ru_RU.UTF-8", "LANGUAGE=ru:en", "LC_ALL=ru_RU.UTF-8", "ENABLE_WINDOW_MANAGER=true", "TZ=Europe/Moscow"],
